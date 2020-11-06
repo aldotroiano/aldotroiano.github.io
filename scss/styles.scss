@@ -45,7 +45,7 @@ $background-alt: #f2f2fa;
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #617195;
+$heading: #222;
 $text: #74808a;
 
 /*
@@ -352,7 +352,7 @@ footer {
     position: relative;
     height: 100vh;
     min-height: 500px;
-    max-height: 1080px;
+    max-height: 600px;
     background-color: #fff;
     background-size: cover;
     padding: 15px;
@@ -361,6 +361,14 @@ footer {
 #descrip1 {
   color: #999 !important;
   -webkit-text-stroke: 0.3px black;
+}
+
+#profilepic{
+  width:220px;
+  height:220px;
+  margin-bottom: 30px;
+  margin-top: -15px;
+  border-radius: 50%;
 }
 #lead-content {
     position: absolute;
