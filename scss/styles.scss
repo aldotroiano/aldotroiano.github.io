@@ -673,6 +673,7 @@ footer {
 
     h2 {
         color: $heading;
+
         margin-bottom: 50px;
     }
 }
@@ -696,6 +697,7 @@ footer {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    text-align: left !important;
 
     h3 {
         font-size: 1.5em;

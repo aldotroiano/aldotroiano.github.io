@@ -144,32 +144,6 @@ functionality creation for the Application clients. Also Learned the dynamics of
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
-<script>
-var modal = document.getElementById("spacejam_modal");
-var btn = document.getElementById("spacejam_btn_moreinfo");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-span.onclick = function() {
-  modal.style.display = "none";
-}
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
-    <div id="spacejam_modal" class="modal">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Some text in the Modal..</p>
-      </div>
-
-    </div>
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -182,13 +156,13 @@ window.onclick = function(event) {
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>"Space Jam" Multiplayer Networked Game</h3>
-                        <p>
-                          Developed a Client Application in Lua and Server Application in JavaScript to support a Real-time Mobile Multiplayer Networked Game optimised for unreliable connections.
-Implemented Low-Level Socket Management, Packet Compression and Serialization, Linear Interpolation algorithms, and Matchmaking.
-Currently supports up to 4 players in each team with concurrent matches taking place
-Managed the AWS Cloud-hosted Server Application
+                        <p style="line-height:1.5">
+                            •  Developed a Client Application in Lua and Server Application in JavaScript to support a Real-time Mobile Multiplayer Networked Game optimised for unreliable connections;
+                          <br> •  Implemented Low-Level Socket Management, Packet Compression and Serialization, Linear Interpolation algorithms, and Matchmaking;
+                          <br> •  Currently supports up to 4 players in each team with concurrent matches taking place;
+                          <br> •  Server Application built on AWS EC2 Server.
                         </p>
-                        <button <button id="spacejam_btn_moreinfo">Open Modal</button><br>
+
                         <a href="https://github.com/aldotroiano/bsc-dissertation-project" target="_blank">View Project on Github</a>
                     </div>
                     <!-- End .project-info -->
@@ -204,11 +178,12 @@ Managed the AWS Cloud-hosted Server Application
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Number Freak iOS development</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <p style="line-height:1.5">
+                          •  Developed and published a native iOS game using Swift 4;
+                        <br> •  Implemented real-time leader board and back end Firebase Database.
                         </p>
-                        <a href="#">More Info <br> </a>
-                        <a href="#">View on the App Store</a>
+
+                        <a href="https://apps.apple.com/app/id1447046449" target="_blank">View on the App Store</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
