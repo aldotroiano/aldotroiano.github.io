@@ -90,19 +90,21 @@
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="June 2019 – September 2019">
+                <h3>Nesea, Rome (Italy)</h3>
+                <h4>Mobile Application Developer</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                  Junior Developer of hybrid Mobile Applications dedicated to a major Italian Sporting Event.  Managed Database integrity and also created DB population scripts to automate
+functionality creation for the Application clients. Also Learned the dynamics of Full-Stack development environments
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="June 2018 – September 2018">
+                <h3>Nesea, Rome (Italy)</h3>
+                <h4>Development Team Assistant</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                  Assistant to the Development Team in enhancing the existing Nesea Mobile Applications
+   In Support to the management of large databases and scripted complex SQL transactions
                 </p>
             </div>
         </div>
@@ -112,43 +114,62 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University College London</h3>
+            <h3><strong>University College London</strong></h3>
             <span class="education-date">Sept 2020 - Sept 2021 </span>
             <h4>MSc in Information Security</h4>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Core modules: Computer Security, Cryptography, Information Security Management, Cybercrime, Cryptocurrencies, Research in Information Security, MSc Dissertation.
                 </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
+
             </ul>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>University of Reading</h3>
+            <h3><strong>University of Reading</strong></h3>
             <span class="education-date">Sept 2017 - July 2020</span>
             <h4 id="education-grade">Grade: <strong>First Class Honours</strong></h4>
             <h4>BSc in Computer Science</h4>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Core modules: Software Engineering, Computer Architecture and Networking, Java, Distributed Systems and Parallel Computing, Image Analysis, Data Science, Visual Intelligence, Virtual Reality.
                 </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li style="line-height:2">
+                    Final year dissertation: “Mobile Multiplayer Networked Game optimised for unreliable connections”.
                 </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
+
             </ul>
         </div>
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
+<script>
+var modal = document.getElementById("spacejam_modal");
+var btn = document.getElementById("spacejam_btn_moreinfo");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+    <div id="spacejam_modal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+
+    </div>
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -156,31 +177,38 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img style="width:300px;height:300px;" src="images/space_jam_image.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>"Space Jam" Multiplayer Networked Game</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                          Developed a Client Application in Lua and Server Application in JavaScript to support a Real-time Mobile Multiplayer Networked Game optimised for unreliable connections.
+Implemented Low-Level Socket Management, Packet Compression and Serialization, Linear Interpolation algorithms, and Matchmaking.
+Currently supports up to 4 players in each team with concurrent matches taking place
+Managed the AWS Cloud-hosted Server Application
                         </p>
-                        <a href="#">View Project</a>
+                        <button <button id="spacejam_btn_moreinfo">Open Modal</button><br>
+                        <a href="https://github.com/aldotroiano/bsc-dissertation-project" target="_blank">View Project on Github</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
+
+
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img style="width:300px;height:300px;" src="images/number_freak_image.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Number Freak iOS development</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="#">More Info <br> </a>
+                        <a href="#">View on the App Store</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
